@@ -1,0 +1,1077 @@
+
+
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <title>POS Dash | Responsive Bootstrap 4 Admin Dashboard Template</title>
+      
+      <!-- Favicon -->
+      <link rel="shortcut icon" href="assets/images/favicon.ico" />
+      <link rel="stylesheet" href="assets/css/backend-plugin.min.css">
+      <link rel="stylesheet" href="assets/css/backend.css?v=1.0.0">
+      <link rel="stylesheet" href="assets/css/all.min.css">
+      <link rel="stylesheet" href="assets/css/line-awesome.min.css">
+      <link rel="stylesheet" href="assets/css/remixicon.css"> 
+
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flatpickr/4.6.13/flatpickr.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+      <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+        <!-- Flatpickr CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <!-- Flatpickr JS -->
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    <!-- Bootstrap (Optional) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    
+    <!-- BEGIN: CHART  CSS-->
+    <link rel="stylesheet" type="text/css" href="css/chartist.css">
+    <link rel="stylesheet" type="text/css" href="css/components.min.css">
+    <link rel="stylesheet" type="text/css" href="css/dashboard-analytics.min.css">
+    <!-- END: Page CSS-->
+
+
+
+
+
+
+
+    </head>
+ <body class="  ">
+     <!-- loader Start -->
+     <div id="loading">
+        <div id="loading-center">
+        </div>
+  </div>
+  <!-- loader END -->
+  <!-- Wrapper Start -->
+  <div class="wrapper">
+    
+    <div class="iq-sidebar  sidebar-default ">
+        <div class="iq-sidebar-logo d-flex align-items-center justify-content-between">
+             <!--href="index.html"-->
+            <a  class="header-logo">
+                <img src="assets/images/logo.png" class="img-fluid rounded-normal light-logo" alt="logo"><h5 class="logo-title light-logo ml-3">DBMS</h5>
+            </a>
+            <div class="iq-menu-bt-sidebar ml-0">
+                <i class="las la-bars wrapper-menu"></i>
+            </div>
+        </div>
+        <div class="data-scrollbar" data-scroll="1">
+            <nav class="iq-sidebar-menu">
+                <ul id="iq-sidebar-toggle" class="iq-menu">
+                    <li class=""><!-- href="Dashboard link shuld be here" -->
+                        <a  class="svg-icon">                        
+                            <svg  class="svg-icon" id="p-dash1" width="20" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12" y2="12"></line>
+                            </svg>
+                            <span class="ml-4">Dashboards</span>
+                        </a>
+                    </li>
+                    <li class=" ">
+                        <a href="#product" class="collapsed" data-toggle="collapse" aria-expanded="false">
+                            <svg class="svg-icon" id="p-dash2" width="20" height="20"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle>
+                                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                            </svg>
+                            <span class="ml-4">Batch</span>
+                            <svg class="svg-icon iq-arrow-right arrow-active" width="20" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="10 15 15 20 20 15"></polyline><path d="M4 4h7a4 4 0 0 1 4 4v12"></path>
+                            </svg>
+                        </a>
+                        <ul id="product" class="iq-submenu collapse" data-parent="#iq-sidebar-toggle">
+                            <li class="">
+                                <a >
+                                    <i class="las la-minus"></i><span>List Batch</span>
+                                </a>
+                            </li>
+                            <li class="active">
+                                <a>
+                                    <i class="las la-minus"></i><span>Create Batch</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+ 
+   
+    
+ 
+                </ul>
+            </nav>
+            <div id="sidebar-bottom" class="position-relative sidebar-bottom">
+                <div class="card border-none">
+                    <div class="card-body p-0">
+                        <div class="sidebarbottom-content">
+                            <div class="image"><img src="assets/images/layouts/side-bkg.png" class="img-fluid" alt="side-bkg"></div>
+                            <h6 class="mt-4 px-4 body-title"></h6>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="p-3"></div>
+        </div>
+        </div>      <div class="iq-top-navbar">
+        <div class="iq-navbar-custom">
+            <nav class="navbar navbar-expand-lg navbar-light p-0">
+                <div> <h4 class="mb-3 mt-3">Warehouse Manager</h4></div >
+                <div class="iq-navbar-logo d-flex align-items-center justify-content-between">
+                    <i class="ri-menu-line wrapper-menu"></i>
+                    <a href="index.html" class="header-logo">
+                        <img src="assets/images/logo.png" class="img-fluid rounded-normal" alt="logo">
+                        <h5 class="logo-title ml-3">DBMS</h5>
+    
+                    </a>
+                </div>
+ 
+                <div class="d-flex align-items-center">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-label="Toggle navigation">
+                        <i class="ri-menu-3-line"></i>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto navbar-list align-items-center">
+                            <li class="nav-item nav-icon dropdown">
+                               
+                                <div class="iq-sub-dropdown dropdown-menu" aria-labelledby="dropdownMenuButton2">
+                                    <div class="card shadow-none m-0">
+                                        <div class="card-body p-3">
+                                            <a class="iq-sub-card" href="#"><img
+                                                    src="assets/images/small/flag-02.png" alt="img-flag"
+                                                    class="img-fluid mr-2">French</a>
+                                            <a class="iq-sub-card" href="#"><img
+                                                    src="assets/images/small/flag-03.png" alt="img-flag"
+                                                    class="img-fluid mr-2">Spanish</a>
+                                            <a class="iq-sub-card" href="#"><img
+                                                    src="assets/images/small/flag-04.png" alt="img-flag"
+                                                    class="img-fluid mr-2">Italian</a>
+                                            <a class="iq-sub-card" href="#"><img
+                                                    src="assets/images/small/flag-05.png" alt="img-flag"
+                                                    class="img-fluid mr-2">German</a>
+                                            <a class="iq-sub-card" href="#"><img
+                                                    src="assets/images/small/flag-06.png" alt="img-flag"
+                                                    class="img-fluid mr-2">Japanese</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#" class="btn border add-btn shadow-none mx-2 d-none d-md-block"
+                                    data-toggle="modal" data-target="#new-order"><i class="las la-plus mr-2"></i>New
+                                    Order</a>
+                            </li>
+                            <li class="nav-item nav-icon search-content">
+                                <a href="#" class="search-toggle rounded" id="dropdownSearch" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">
+                                    <i class="ri-search-line"></i>
+                                </a>
+                                <div class="iq-search-bar iq-sub-dropdown dropdown-menu" aria-labelledby="dropdownSearch">
+                                    <form action="#" class="searchbox p-2">
+                                        <div class="form-group mb-0 position-relative">
+                                            <input type="text" class="text search-input font-size-12"
+                                                placeholder="type here to search...">
+                                            <a href="#" class="search-link"><i class="las la-search"></i></a>
+                                        </div>
+                                    </form>
+                                </div>
+                            </li>
+                            <li class="nav-item nav-icon dropdown">
+                                <a href="#" class="search-toggle dropdown-toggle" id="dropdownMenuButton2"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="feather feather-mail">
+                                        <path
+                                            d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+                                        </path>
+                                        <polyline points="22,6 12,13 2,6"></polyline>
+                                    </svg>
+                                    <span class="bg-primary"></span>
+                                </a>
+                                <div class="iq-sub-dropdown dropdown-menu" aria-labelledby="dropdownMenuButton2">
+                                    <div class="card shadow-none m-0">
+                                        <div class="card-body p-0 ">
+                                            <div class="cust-title p-3">
+                                                <div class="d-flex align-items-center justify-content-between">
+                                                    <h5 class="mb-0">All Messages</h5>
+                                                    <a class="badge badge-primary badge-card" href="#">3</a>
+                                                </div>
+                                            </div>
+                                            <div class="px-3 pt-0 pb-0 sub-card">
+                                                <a href="#" class="iq-sub-card">
+                                                    <div class="media align-items-center cust-card py-3 border-bottom">
+                                                        <div class="">
+                                                            <img class="avatar-50 rounded-small"
+                                                                src="assets/images/user/01.jpg" alt="01">
+                                                        </div>
+                                                        <div class="media-body ml-3">
+                                                            <div class="d-flex align-items-center justify-content-between">
+                                                                <h6 class="mb-0">Emma Watson</h6>
+                                                                <small class="text-dark"><b>12 : 47 pm</b></small>
+                                                            </div>
+                                                            <small class="mb-0">Lorem ipsum dolor sit amet</small>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                                <a href="#" class="iq-sub-card">
+                                                    <div class="media align-items-center cust-card py-3 border-bottom">
+                                                        <div class="">
+                                                            <img class="avatar-50 rounded-small"
+                                                                src="assets/images/user/02.jpg" alt="02">
+                                                        </div>
+                                                        <div class="media-body ml-3">
+                                                            <div class="d-flex align-items-center justify-content-between">
+                                                                <h6 class="mb-0">Ashlynn Franci</h6>
+                                                                <small class="text-dark"><b>11 : 30 pm</b></small>
+                                                            </div>
+                                                            <small class="mb-0">Lorem ipsum dolor sit amet</small>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                                <a href="#" class="iq-sub-card">
+                                                    <div class="media align-items-center cust-card py-3">
+                                                        <div class="">
+                                                            <img class="avatar-50 rounded-small"
+                                                                src="assets/images/user/03.jpg" alt="03">
+                                                        </div>
+                                                        <div class="media-body ml-3">
+                                                            <div class="d-flex align-items-center justify-content-between">
+                                                                <h6 class="mb-0">Kianna Carder</h6>
+                                                                <small class="text-dark"><b>11 : 21 pm</b></small>
+                                                            </div>
+                                                            <small class="mb-0">Lorem ipsum dolor sit amet</small>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <a class="right-ic btn btn-primary btn-block position-relative p-2" href="#"
+                                                role="button">
+                                                View All
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="nav-item nav-icon dropdown">
+                                <a href="#" class="search-toggle dropdown-toggle" id="dropdownMenuButton"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="feather feather-bell">
+                                        <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path>
+                                        <path d="M13.73 21a2 2 0 0 1-3.46 0"></path>
+                                    </svg>
+                                    <span class="bg-primary "></span>
+                                </a>
+                                <div class="iq-sub-dropdown dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <div class="card shadow-none m-0">
+                                        <div class="card-body p-0 ">
+                                            <div class="cust-title p-3">
+                                                <div class="d-flex align-items-center justify-content-between">
+                                                    <h5 class="mb-0">Notifications</h5>
+                                                    <a class="badge badge-primary badge-card" href="#">3</a>
+                                                </div>
+                                            </div>
+                                            <div class="px-3 pt-0 pb-0 sub-card">
+                                                <a href="#" class="iq-sub-card">
+                                                    <div class="media align-items-center cust-card py-3 border-bottom">
+                                                        <div class="">
+                                                            <img class="avatar-50 rounded-small"
+                                                                src="assets/images/user/01.jpg" alt="01">
+                                                        </div>
+                                                        <div class="media-body ml-3">
+                                                            <div class="d-flex align-items-center justify-content-between">
+                                                                <h6 class="mb-0">Emma Watson</h6>
+                                                                <small class="text-dark"><b>12 : 47 pm</b></small>
+                                                            </div>
+                                                            <small class="mb-0">Lorem ipsum dolor sit amet</small>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                                <a href="#" class="iq-sub-card">
+                                                    <div class="media align-items-center cust-card py-3 border-bottom">
+                                                        <div class="">
+                                                            <img class="avatar-50 rounded-small"
+                                                                src="assets/images/user/02.jpg" alt="02">
+                                                        </div>
+                                                        <div class="media-body ml-3">
+                                                            <div class="d-flex align-items-center justify-content-between">
+                                                                <h6 class="mb-0">Ashlynn Franci</h6>
+                                                                <small class="text-dark"><b>11 : 30 pm</b></small>
+                                                            </div>
+                                                            <small class="mb-0">Lorem ipsum dolor sit amet</small>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                                <a href="#" class="iq-sub-card">
+                                                    <div class="media align-items-center cust-card py-3">
+                                                        <div class="">
+                                                            <img class="avatar-50 rounded-small"
+                                                                src="assets/images/user/03.jpg" alt="03">
+                                                        </div>
+                                                        <div class="media-body ml-3">
+                                                            <div class="d-flex align-items-center justify-content-between">
+                                                                <h6 class="mb-0">Kianna Carder</h6>
+                                                                <small class="text-dark"><b>11 : 21 pm</b></small>
+                                                            </div>
+                                                            <small class="mb-0">Lorem ipsum dolor sit amet</small>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <a class="right-ic btn btn-primary btn-block position-relative p-2" href="#"
+                                                role="button">
+                                                View All
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="nav-item nav-icon dropdown caption-content">
+                                <a href="#" class="search-toggle dropdown-toggle" id="dropdownMenuButton4"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <img src="assets/images/user/1.png" class="img-fluid rounded" alt="user">
+                                </a>
+                                <div class="iq-sub-dropdown dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <div class="card shadow-none m-0">
+                                        <div class="card-body p-0 text-center">
+                                            <div class="media-body profile-detail text-center">
+                                                <img src="assets/images/page-img/profile-bg.jpg" alt="profile-bg"
+                                                    class="rounded-top img-fluid mb-4">
+                                                <img src="assets/images/user/1.png" alt="profile-img"
+                                                    class="rounded profile-img img-fluid avatar-70">
+                                            </div>
+                                            <div class="p-3">
+                                                <h5 class="mb-1">JoanDuo@property.com</h5>
+                                                <p class="mb-0">Since 10 march, 2020</p>
+                                                <div class="d-flex align-items-center justify-content-center mt-3">
+                                                    <!-- href="user-profile" -->
+                                                    <a  class="btn border mr-2">Profile</a>
+                                                    <!-- href="auth-sign-in" -->
+                                                    <a  class="btn border">Sign Out</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <div class="modal fade" id="new-order" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="popup text-left">
+                        <h4 class="mb-3">New Order</h4>
+                        <div class="content create-workform bg-body">
+                            <div class="pb-3">
+                                <label class="mb-2">Email</label>
+                                <input type="text" class="form-control" placeholder="Enter Name or Email">
+                            </div>
+                            <div class="col-lg-12 mt-4">
+                                <div class="d-flex flex-wrap align-items-ceter justify-content-center">
+                                    <div class="btn btn-primary mr-4" data-dismiss="modal">Cancel</div>
+                                    <div class="btn btn-outline-primary" data-dismiss="modal">Create</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>      <div class="content-page">
+        <div class="col-lg-12">
+            <div class="d-flex flex-wrap flex-wrap align-items-center justify-content-between mb-4">
+                <div>
+            
+                    <p class="mb-0"> this data are randomly generated demo before dbms implimentation</p>
+                </div>
+              
+            </div>
+        </div>
+
+
+
+   <!-- chart-1 ********-->
+  <div class="container">         <!--the main container div start -->
+   
+ 
+            <div class="graph_t">
+                <div class="card card-block card-stretch card-height">
+                  
+
+                    <div class="card-header d-flex justify-content-between">
+                        <div class="header-title">
+                            <h4 class="card-title">Processed Product Revenue</h4>
+                        </div>    
+                        
+                        
+      
+
+                        <div class="card-header-toolbar d-flex align-items-center">
+                            
+                            <div class="dropdown">
+                                <div class="input-group">
+                                    <input type="text" id="year1" class="form-control myTextyear " value="2019" placeholder="Year">
+                                </div>
+                                <span class="dropdown-toggle dropdown-bg btn" id="dropdownMenuButton001"
+                                    data-toggle="dropdown">
+                                    Select Product<i class="ri-arrow-down-s-line ml-1"></i>
+                                </span>
+                                <div class="dropdown-menu dropdown-menu-right shadow-none"
+                                    aria-labelledby="dropdownMenuButton001">
+                                    <a class="dropdown-item" href="#">Grain</a>
+                                    <a class="dropdown-item" href="#">Vegtable</a>
+                                    <a class="dropdown-item" href="#">Plants</a>
+                                    <a class="dropdown-item" href="#">Fruit</a>
+                                    <a class="dropdown-item" href="#">Herb</a>
+                                    <a class="dropdown-item" href="#">Total</a>
+                                </div>
+                               
+                            </div>
+                        </div>
+
+                        
+                    </div>                    
+                    <div class="card-body">
+                        <div class="chartist">
+                            <div id="project-stats" class="height-350 areaGradientShadow1"></div>
+                             <div id="hover-tooltip" style="display: none; position: absolute;"></div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+
+
+        
+        <!-- Page end   layout1-chart1 916-->
+        
+
+
+
+<!-- for charts start ***********************************************************************************************************************************************************-->
+
+
+    <script>
+
+                // Function to generate the chart
+    function chartGenerate(labels, quantities,chartNo, instanceVar) {
+            const canvas = document.getElementById(chartNo);
+
+
+
+            const minQuantity = Math.min(...quantities);
+            const maxQuantity = Math.max(...quantities);
+            const stepSize = Math.max(1, Math.round((maxQuantity - minQuantity) / 5));
+
+
+
+
+            
+            if (!canvas) {
+                console.error(`Canvas with id "${chartNo}" not found.`);
+                return;
+            }
+
+            
+
+            // Destroy the existing chart instance if it exists
+            if (instanceVar && (instanceVar instanceof Chart) ){
+                  instanceVar.destroy();
+             }
+
+
+
+            // Get the canvas context and create a new chart
+                ctx = document.getElementById(chartNo).getContext('2d');
+                instanceVar = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: labels, // X-axis labels
+                    datasets: [{
+                        label: 'Quantity',
+                        data: quantities, // Y-axis values
+                        backgroundColor: [
+                            'rgba(255, 99, 132, 0.2)',
+                            'rgba(54, 162, 235, 0.2)',
+                            'rgba(255, 206, 86, 0.2)',
+                            'rgba(75, 192, 192, 0.2)',
+                            'rgba(153, 102, 255, 0.2)'
+                        ],
+                        borderColor: [
+                            'rgba(255, 99, 132, 1)',
+                            'rgba(54, 162, 235, 1)',
+                            'rgba(255, 206, 86, 1)',
+                            'rgba(75, 192, 192, 1)',
+                            'rgba(153, 102, 255, 1)'
+                        ],
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    scales: {
+                        y: {
+                            beginAtZero: false,
+                            min: 0, // Add buffer below. minimum minQuantity - 500,
+                            max: maxQuantity + (0.1 * maxQuantity), // Add buffer above maximum. maxQuantity + 500,
+                            grid: {
+                                 display: false // Hide background grid lines
+                            },
+                            ticks: {
+                                stepSize: stepSize, // Adaptive step size
+
+                                callback: function(value) {
+                        if (value >= 1000000000) {
+                            return (value / 1000000000).toFixed(1) + 'B'; // Billion
+                        } else if (value >= 1000000) {
+                            return (value / 1000000).toFixed(1) + 'M'; // Million
+                        } else if (value >= 1000) {
+                            return (value / 1000).toFixed(1) + 'k'; // Thousand
+                        } else {
+                            return value.toString(); // For numbers less than 1000
+                        }
+                    }
+                                
+                            },
+                                                    
+
+
+                        }
+                    }
+                }
+            });
+                return  instanceVar;
+
+        }// genarateChart END
+
+    </script>
+
+
+
+<!-- for charts end ***********************************************************************************************************************************************************-->
+   
+      <div class="row">
+          <div class="col-lg-12">
+              <div class="d-flex flex-wrap flex-wrap align-items-center justify-content-between mb-4">
+                  <div>
+                      <h4 class="mb-3">Order History</h4>
+                      <p class="mb-0"> this data are randomly generated demo before dbms implimentation</p>
+                  </div>
+                
+              </div>
+          </div>
+          
+              
+                 
+                    <div class="table-root"  >
+
+                        <table class="data-tables table mb-0 tbl-server-info table1" id="table001">
+                        </table>
+                        
+                    </div>
+                    
+<!--  ***********************************************************************************************************************************************************-->                    
+                
+<!-- for charts end ***********************************************************************************************************************************************************-->                
+
+        
+      </div>
+      <!-- Page end  -->
+
+</div>  <!--the main container div end -->
+  
+  <!-- Modal Edit -->
+  <div class="modal fade" id="edit-note" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+              <div class="modal-body">
+                  <div class="popup text-left">
+                      <div class="media align-items-top justify-content-between">                            
+                          <h3 class="mb-3">Product</h3>
+                          <div class="btn-cancel p-0" data-dismiss="modal"><i class="las la-times"></i></div>
+                      </div>
+                      <div class="content edit-notes">
+                          <div class="card card-transparent card-block card-stretch event-note mb-0">
+                              <div class="card-body px-0 bukmark">
+                                  <div class="d-flex align-items-center justify-content-between pb-2 mb-3 border-bottom">                                                    
+                                      <div class="quill-tool">
+                                      </div>
+                                  </div>
+                                  <div id="quill-toolbar1">
+                                      <p>Virtual Digital Marketing Course every week on Monday, Wednesday and Saturday.Virtual Digital Marketing Course every week on Monday</p>
+                                  </div>
+                              </div>
+                              <div class="card-footer border-0">
+                                  <div class="d-flex flex-wrap align-items-ceter justify-content-end">
+                                      <div class="btn btn-primary mr-3" data-dismiss="modal">Cancel</div>
+                                      <div class="btn btn-outline-primary" data-dismiss="modal">Save</div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+    </div>
+  </div>
+  <!-- Wrapper End-->
+  <footer class="iq-footer">
+          <div class="container-fluid">
+          <div class="card">
+              <div class="card-body">
+                  <div class="row">
+                      <div class="col-lg-6">
+                          <ul class="list-inline mb-0">
+                              <li class="list-inline-item"><a href="privacy-policy.html">Privacy Policy</a></li>
+                              <li class="list-inline-item"><a href="terms-of-service.html">Terms of Use</a></li>
+                          </ul>
+                      </div>
+                      <div class="col-lg-6 text-right">
+                          <span class="mr-1"><script>document.write(new Date().getFullYear())</script>©</span> <a href="#" class="">DBMS</a>.
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </footer>
+    <!-- Backend Bundle JavaScript -->
+    <script src="assets/js/backend-bundle.min.js"></script>
+    
+    <!-- Table Treeview JavaScript -->
+    <script src="assets/js/table-treeview.js"></script>
+    
+    <!-- Chart Custom JavaScript -->
+    <script src="assets/js/customizer.js"></script>
+    
+    <!-- Chart Custom JavaScript -->
+    <script async src="assets/js/chart-custom.js"></script>
+    
+    <!-- app JavaScript -->
+    <script src="assets/js/app.js"></script>
+
+
+
+
+
+    <!-- BEGIN: Page  JS-->
+    <script src="js/chartist.min.js" type="text/javascript"></script>
+    <script src="js/chartist-plugin-tooltip.min.js" type="text/javascript"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+
+
+    <script>
+
+                    console.log(typeof jQuery);
+                    console.log("are u sure");
+
+
+                    var labels=null;
+
+
+                    $(window).on("load", async function () {   //  final working
+                        
+                            // Output should be "function"
+                        let  strarr = await fetchData('php/fetch_monthly_total_cost_order_product_w.php');
+                        var num=  toNum(strarr);
+                    
+                        initializeChart(strarr);
+                        
+                        
+                    });
+
+
+
+
+                    async function fetchData(path){
+
+                        const  seriesData = new Array(12).fill(0); // Initialize all months with 0
+
+                        await fetch(path) // Adjust the path as needed
+                        .then( async response => await response.json())
+                        .then(data => {
+                            // Define the labels for the chart (months from January to December)
+                                labels = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+                            
+                        
+                            // Populate the seriesData array based on the fetched data
+                            data.forEach(item => {
+                                // Convert month name to a short format (e.g., "January" -> "Jan")
+                                var monthIndex = labels.indexOf(item.month.substring(0, 3)); // Get the short version of the month
+                                if (monthIndex !== -1) {
+                                    seriesData[monthIndex] = item.totalCost; // Set the totalCost at the correct index
+                                
+                                }
+                            });
+                        
+                            // Log the entire seriesData array for debugging
+                        
+                        })
+                        .catch(error => console.error('Error fetching data:', error));
+
+                        return seriesData;
+                    }
+
+                    function toNum(stringArray){
+
+                        const numberArray = stringArray.map(Number);
+                        return numberArray;
+                    }
+                    //
+                    function initializeChart(data) {
+
+                        console.log("hey there 2");
+                        const chart = new Chartist.Line(
+                            "#project-stats",
+                            {    
+                                labels: ["Jan", "Feb", "Mar", "Apr", "May", "June", "July", "Aug","sep"],
+                                series: [
+                                    data,
+                                ],
+                            },
+                            {
+                                lineSmooth: Chartist.Interpolation.simple({ divisor: 2 }),
+                                fullWidth: true,
+                                showArea: true,
+                                chartPadding: { right: 20 },
+                                axisX: { showGrid: false },
+                                axisY: {
+                                    labelInterpolationFnc: function (value) {
+                                        return value + "k";
+                                    },
+                                    scaleMinSpace: 40,
+                                    showGrid: false,
+                                },
+                                plugins: [
+                                    Chartist.plugins.tooltip({
+                                        appendToBody: true,
+                                        pointClass: "ct-point",
+                                    }),
+                                ],
+                                low: 0,
+                                onlyInteger: true,
+                            }
+                        );
+                    
+                        chart
+                            .on("created", function (data) {
+                                const defs = data.svg.querySelector("defs") || data.svg.elem("defs");
+                                defs
+                                    .elem("linearGradient", {
+                                        id: "area-gradient",
+                                        x1: 1,
+                                        y1: 0,
+                                        x2: 0,
+                                        y2: 0,
+                                    })
+                                    .elem("stop", { offset: 0, "stop-color": "rgba(248,161,236, 1)" })
+                                    .parent()
+                                    .elem("stop", { offset: 1, "stop-color": "rgba(115,150,255, 1)" });
+                    
+                                // Attach hover event listeners to points dynamically
+                                const points = document.querySelectorAll("circle.ct-point-circle");
+                                points.forEach((point) => {
+                                    point.addEventListener("mouseover", function (event) {
+                                        const value = point.getAttribute("ct:value");
+                                        const rect = point.getBoundingClientRect();
+                                        const chartRect = document
+                                            .querySelector("#project-stats")
+                                            .getBoundingClientRect();
+                    
+                                        showTooltip(value, rect, chartRect);
+                                    });
+                                    point.addEventListener("mouseout", hideTooltip);
+                                });
+                            })
+                            .on("draw", function (data) {
+                                if (data.type === "point") {
+                                    const circle = new Chartist.Svg("circle", {
+                                        cx: data.x,
+                                        cy: data.y,
+                                        "ct:value": data.value.y,
+                                        r: 9, // Generic radius for all points
+                                        class: "ct-point-circle",
+                                    });
+                    
+                                    data.element.replace(circle);
+                                }
+                    
+                                if (data.type === "line" || data.type === "area") {
+                                    data.element.animate({
+                                        d: {
+                                            begin: 1000,
+                                            dur: 1000,
+                                            from: data.path
+                                                .clone()
+                                                .scale(1, 0)
+                                                .translate(0, data.chartRect.height())
+                                                .stringify(),
+                                            to: data.path.clone().stringify(),
+                                            easing: Chartist.Svg.Easing.easeOutQuint,
+                                        },
+                                    });
+                                }
+                            });
+                    
+                        // Tooltip display function
+                        function showTooltip(value, rect, chartRect) {
+                            const tooltip = document.querySelector("#hover-tooltip");
+                            tooltip.textContent = `Value: ${value}k`;
+                            tooltip.style.display = "block";
+                    
+                            // Position the tooltip closer to the point and slightly left
+                            const offsetX = -35; // Move slightly left
+                            const offsetY = 90; // Move closer to the point
+                    
+                            tooltip.style.left = `${rect.left - chartRect.left + rect.width / 2 + offsetX}px`;
+                            tooltip.style.top = `${rect.top - chartRect.top + offsetY}px`;
+                        }
+                    
+                        // Tooltip hide function
+                        function hideTooltip() {
+                            const tooltip = document.querySelector("#hover-tooltip");
+                            tooltip.style.display = "none";
+                        }
+                    
+                    }
+
+    </script>   ->
+    <!-- END: Page JS-->
+ 
+    
+
+
+
+
+
+
+
+  </body>
+
+
+
+
+  <style>
+        body {
+   
+   background-color: #fff !important;
+ 
+}
+    #hover-tooltip {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.8); /* Dark background */
+    color: #fff; /* White text */
+    padding: 5px 10px;
+    border-radius: 4px;
+    pointer-events: none;
+    font-size: 12px;
+    z-index: 9999;
+}
+
+    .table thead {
+        position: fixed;
+        top: 0 !important;
+      
+    }
+
+    .myTextyear{
+
+
+        width: 5px !important;
+
+        margin-bottom: 15px !important;
+      
+    }
+
+    .myTextyear::placeholder {
+        
+        color: black; 
+        align-items: center;
+        font-size:16px;
+
+
+        margin-left: 30px;
+        padding-left: 35px;
+     }
+    .form-control {
+      background-color: rgba(244, 245, 250);
+      border: none;
+      border-radius: 10px;
+      padding: 6px 6px;
+      font-size: 0.75rem;
+
+      height: 33px;
+      
+    }
+    .form-control:focus {
+      background-color: #e0e0e0;
+    }
+    textarea.form-control {
+        background-color: rgba(244, 245, 250);
+        line-height: 28px
+    }
+  
+    
+/* Hide pagination controls */
+.dataTables_paginate {
+    display: none;
+}
+
+.table-root {
+    overflow: auto;
+
+    max-height: 730px; /* Adjust based on desired visible height */
+    max-width: 100%;
+    table-layout: fixed;
+    
+}
+
+
+.table .ligth th {
+    padding: 15px 40px !important;
+    
+    text-transform: capitalize;
+    font-size: 17px;
+    line-height: 22px;
+    background: #f4f5fa;
+    color: #110A57;
+    border: 0px;
+    font-weight: 700 !important;
+    position: sticky;
+    top: 0;
+    
+    z-index: 10;
+    box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.4); /* Optional shadow for better visual separation */
+
+    
+}
+.table  td {
+
+    padding: 15px 40px !important;
+}
+
+  </style>
+
+ <script>
+function initializeDropdown(dropdownId, phpPath, chartNo) {
+    const dropdownMenu = document.querySelector(`[aria-labelledby="${dropdownId}"]`);
+    const toggleElement = document.getElementById(dropdownId);
+
+    dropdownMenu.querySelectorAll('.dropdown-item').forEach(item => {
+        item.addEventListener('click', event => {
+            event.preventDefault();
+            const selectedValue = event.target.textContent.trim();
+
+            // Update span text
+            toggleElement.textContent = selectedValue;
+            toggleElement.innerHTML += ' <i class="ri-arrow-down-s-line ml-1"></i>';
+
+            let fromDate, toDate, year;
+            
+
+            if (chartNo =='quantityChart') {
+                const yearInput = document.getElementById('year1');
+                year = yearInput.value;
+                
+            } else if(chartNo =='quantityChart2'){
+                const yearInput = document.getElementById('year2');
+                year = yearInput.value;
+                
+            }
+            else{
+                const yearInput = document.getElementById('year3');
+                year = yearInput.value;
+
+            }
+         
+            if (!year) {
+                 alert('Please enter a valid year.');
+               return;
+             }
+
+            // Use the year parameter to dynamically set date ranges
+            switch (selectedValue) {
+                case 'Winter':
+                    fromDate = `${year - 1}-12-01`; // Previous year December
+                    toDate = `${year}-02-28`; // Current year February
+                    break;
+                case 'Spring':
+                    fromDate = `${year}-03-01`;
+                    toDate = `${year}-05-31`;
+                    break;
+                case 'Summer':
+                    fromDate = `${year}-06-01`;
+                    toDate = `${year}-08-31`;
+                    break;
+                case 'Autumn':
+                    fromDate = `${year}-09-01`;
+                    toDate = `${year}-11-30`;
+                    break;
+                default:
+                    console.error('Invalid selection');
+                    return;
+            }
+                  console.log(fromDate);
+                  console.log(toDate);
+
+            fetch(`${phpPath}?fromDate=${fromDate}&toDate=${toDate}`)
+                .then(response => response.json())
+                .then(data => {
+                    
+                    if (chartNo =='quantityChart2' ) {
+               
+                        labels = data.map(item => item.productType);
+                
+                     } else{
+
+                        labels = data.map(item => item.materialType);
+            
+                        
+                     }
+
+
+                    const quantities = data.map(item => item.totalQuantity);
+                    console.log('Labels:', labels, 'Quantities:', quantities);
+
+                    // Call your chart generation function here
+                    if (chartNo === 'quantityChart2') {
+                        chartInstance2 = chartGenerate(labels, quantities, 'quantityChart2', chartInstance2);
+                    } else if(chartNo === 'quantityChart'){
+                        chartInstance1 = chartGenerate(labels, quantities, 'quantityChart', chartInstance1);
+                    }
+                    else{
+
+                        chartInstance3 = chartGenerate(labels, quantities, 'quantityChart3', chartInstance3);
+                    }
+
+                })
+                .catch(error => console.error('Error fetching data:', error));
+        });
+    });
+}
+
+
+// Initialize the dropdown
+//initializeDropdown('dropdownMenuButton001', 'php/fetch_all_data_in_range_w.php','quantityChart');
+
+
+
+ </script>
+
+    
+</html>
