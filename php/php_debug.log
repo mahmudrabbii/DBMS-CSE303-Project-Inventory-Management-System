@@ -1,0 +1,120 @@
+POST Data: Array
+(
+    [orderId] => PUR0006
+    [shippingDate] => 2024-12-04
+    [transportMethod] => car
+    [arrivalDate] => 2024-12-04
+    [shippingCost] => 22
+    [inspectionDate] => 2024-12-03
+    [regulatoryClearance] => Cleared
+    [remarks] => ok
+)
+
+POST Data: Array
+(
+    [orderId] => PUR0006
+    [shippingDate] => 2024-12-11
+    [transportMethod] => TRUCK
+    [arrivalDate] => 2024-12-10
+    [shippingCost] => 69
+    [inspectionDate] => 2024-12-10
+    [regulatoryClearance] => Cleared
+    [remarks] => ok
+)
+
+POST Data: Array
+(
+    [orderId] => PUR0001
+    [shippingDate] => 2024-12-17
+    [transportMethod] => car2
+    [arrivalDate] => 2024-12-31
+    [shippingCost] => 22
+    [inspectionDate] => 2024-12-25
+    [regulatoryClearance] => Cleared
+    [remarks] => ok
+)
+
+POST Data: Array
+(
+    [orderId] => PUR0001
+    [shippingDate] => 2024-12-17
+    [transportMethod] => car
+    [arrivalDate] => 2024-12-31
+    [shippingCost] => 22
+    [inspectionDate] => 2024-12-25
+    [regulatoryClearance] => Cleared
+    [remarks] => ok
+)
+
+POST Data: Array
+(
+    [orderId] => PUR0001
+    [shippingDate] => 2024-12-17
+    [transportMethod] => car
+    [arrivalDate] => 2024-12-31
+    [shippingCost] => 22
+    [inspectionDate] => 2024-12-25
+    [regulatoryClearance] => Cleared
+    [remarks] => ok
+)
+
+POST Data: Array
+(
+    [orderId] => PUR0002
+    [shippingDate] => 2024-12-09
+    [transportMethod] => car
+    [arrivalDate] => 2024-12-09
+    [shippingCost] => 22
+    [inspectionDate] => 2024-12-10
+    [regulatoryClearance] => Cleared
+    [remarks] => ok
+)
+
+POST Data: Array
+(
+    [orderId] => PUR0002
+    [shippingDate] => 2024-12-09
+    [transportMethod] => car
+    [arrivalDate] => 2024-12-09
+    [shippingCost] => 22
+    [inspectionDate] => 2024-12-10
+    [regulatoryClearance] => Cleared
+    [remarks] => ok
+)
+
+POST Data: Array
+(
+    [orderId] => PUR0002
+    [shippingDate] => 2024-12-03
+    [transportMethod] => car
+    [arrivalDate] => 2024-12-17
+    [shippingCost] => 22
+    [inspectionDate] => 2024-12-10
+    [regulatoryClearance] => Cleared
+    [remarks] => ok
+)
+
+POST Data: Array
+(
+    [orderId] => PUR0002
+    [shippingDate] => 2024-12-10
+    [transportMethod] => TRUCK
+    [arrivalDate] => 2024-12-02
+    [shippingCost] => 22
+    [inspectionDate] => 2024-12-03
+    [regulatoryClearance] => Cleared
+    [remarks] => ok
+)
+
+POST Data: Array
+(
+    [orderId] => PUR0071
+    [shippingDate] => 2024-12-10
+    [transportMethod] => TRUCK
+    [arrivalDate] => 2024-12-09
+    [shippingCost] => 22
+    [inspectionDate] => 2024-12-09
+    [regulatoryClearance] => Cleared
+    [remarks] => ok
+)
+
